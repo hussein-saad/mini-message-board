@@ -13,7 +13,7 @@ You can view the live application [here](https://mini-message-board-production-0
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/mini-message-board.git`
+1. Clone this repository: `git clone https://github.com/hussein-saad/mini-message-board.git`
 2. Navigate into the directory: `cd mini-message-board`
 3. Install the dependencies: `npm install`
 4. Start the server: `npm start`
