@@ -2,7 +2,7 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/index.css" />
   </head>
   <body>
     <h1><%= title %></h1>
@@ -10,16 +10,12 @@
       <% messages.forEach(function(message) { %>
       <li>
         <p>User: <%= message.user %></p>
-        <p>Message: <%= message.text %></p>
-        <p>Date: <%= message.added %></p>
+        <p>Message: <%= message.message %></p>
+        <p>Date: <%= message.createdAtFormatted %></p>
       </li>
       <% }); %>
     </ul>
-    <a href="http://localhost:3000/new">Add a New Message</a>
+
+    <a href="/new">Add a New Message</a>
   </body>
 </html>
-
-
-
-
-
