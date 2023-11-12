@@ -7,6 +7,10 @@ This is a simple message board application built with Node.js, Express and mongo
 - View all messages
 - Create a new message
 
+## Live Preview
+
+You can view the live application [here](https://mini-message-board-production-012f.up.railway.app/).
+
 ## Installation
 
 1. Clone this repository: `git clone https://github.com/yourusername/mini-message-board.git`
