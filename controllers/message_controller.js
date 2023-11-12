@@ -1,7 +1,7 @@
 const Message = require("../models/message");
 
 exports.getMessages = async (req, res, next) => {
-  const messages = await Message.find();
+  const messages = await Message.find().sort({ createdAt: "desc" }).exec();
 
   if (!messages) {
     const error = new Error("No messages found.");
